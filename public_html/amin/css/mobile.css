@@ -1,0 +1,135 @@
+            @media only screen and (max-width: 780px) {
+                html {
+                    font-size: 13px;
+                }
+                .view-area {
+                    width: 95%;
+                }
+                a.mobile-menu {
+                    display: block;
+                    width: 32px;
+                    height: 32px;
+                    background-image: url(../images/mobile-menu.svg);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center center;
+                }
+                nav.menu {
+                    display: none;
+                }
+                strong.section-title {
+                    font-size: 2.3rem;
+                    line-height: 3.5rem;
+                }
+                a.logo {
+                    width: 50%;
+                }
+                a.logo>img {
+                    width: 100%;
+                }
+                .header::after {
+                    background: linear-gradient(30deg, #00D1CD 30%, #005A79 30%, #005A79);
+                }
+                .header>div {
+                    flex-direction: column;
+                }
+                .header div.title {
+                    width: 90%;
+                    margin-bottom: 50px;
+                }
+                .header div.consult-form {
+                    width: 90%;
+                    padding: 25px 20px;
+                }
+                .caring>div {
+                    flex-direction: column;
+                }
+                .caring>div>* {
+                    width: 90%;
+                }
+                .caring .images>div:first-child>img {
+                    width: 100%;
+                }
+                .caring .images>div:last-child {
+                    border: 4px solid #fff;
+                }
+                .caring .images>div:last-child>img {
+                    width: 150px;
+                }
+                .caring .images {
+                    margin-bottom: 50px;
+                }
+                .caring div.buttons {
+                    justify-content: center;
+                }
+                .services .services-contact {
+                    flex-direction: column;
+                    padding: 20px 25px;
+                }
+                .services .services-contact strong {
+                    margin-bottom: 20px;
+                }
+                .services .services-contact span {
+                    margin-bottom: 20px;
+                }
+                .services ul.cards {
+                    flex-direction: column;
+                }
+                .services ul.cards li {
+                    width: 90%;
+                }
+                ul.feedback-comments {
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                ul.feedback-comments li {
+                    width: 100%;
+                }
+                ul.feedback-comments li.one-row {
+                    margin-bottom: 40px;
+                }
+                ul.feedback-comments .footer-content ul {
+                    flex-direction: column;
+                }
+                .feedback-comments .box>img {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+                ul.feedback-comments>li.two-row>.box {
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 100%;
+                }
+                ul.feedback-comments>li.two-row>.box>div>* {
+                    margin-bottom: 40px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                ul.feedback-comments>li.two-row>.box>div>span {
+                    font-size: 1.5rem;
+                    margin-bottom: 20px;
+                }
+                ul.feedback-comments>li.two-row>.box>div>p {
+                    font-size: 1.1rem;
+                    line-height: 1.7rem;
+                }
+                ul.feedback-comments>li.two-row>.box>img {
+                    width: 100px;
+                }
+                ul.feedback-comments>li>.box>div>span {
+                    margin-top: 20px;
+                }
+                .footer {
+                    height: 200px;
+                }
+                .footer::before {
+                    top: -260px;
+                }
+                .footer-content ul {
+                    flex-wrap: wrap;
+                }
+                .footer-content ul>li:first-child {
+                    width: 100%;
+                }
+            }

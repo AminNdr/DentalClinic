@@ -1,0 +1,43 @@
+body {
+    direction: ltr;
+}
+
+.buttons a.button {
+    line-height: 1.5rem;
+}
+
+.buttons a.button img {
+    transform: rotate(180deg);
+}
+
+.nav-bar nav>a {
+    margin-left: 12px;
+}
+
+.header::after {
+    background: linear-gradient(to left, #00D1CD calc(50% - 425px), #005A79 calc(50% - 425px), #005A79);
+}
+
+.caring div.buttons a {
+    margin-left: 0;
+}
+
+.caring .images div:nth-child(1) {
+    margin-right: 50px;
+}
+
+ul.feedback-comments>li.one-row>.box>img {
+    margin-right: 0px;
+}
+
+.feedback-comments .box>img {
+    margin-right: 30px;
+}
+
+.footer li.social>span {
+    margin-right: 5px;
+}
+
+.footer::before {
+    transform: skewY(8deg);
+}
